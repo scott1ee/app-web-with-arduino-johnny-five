@@ -13,7 +13,7 @@ app.use('/public', express.static('public'));
 // Aqui mostramos el html 
 // En nuestro servidor local
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/movil.html');
+  res.sendFile(__dirname + '/app.html');
 });
 // Aqui inicializamos el servidor 
 // En el puerto 3000
