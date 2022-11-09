@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 // Aqui inicializamos el servidor 
 // En el puerto 3000
 server.listen(3000, () => {
-  console.log('estoy en 3000');
+  console.log('Estoy en http://localhost:3000');
 });
 // Llamamos la conexion al arduino 
 board.on('ready', () => {
